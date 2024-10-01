@@ -53,4 +53,29 @@ public class Heroee {
     public int getVidas() {
         return vidas;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public boolean isSaltando() {
+        return saltando;
+    }
+
+    public void setSaltando(boolean saltando) {
+        this.saltando = saltando;
+    }
+    
 }
